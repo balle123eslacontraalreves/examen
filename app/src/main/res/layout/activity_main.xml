@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/exadecimal"
+        android:layout_width="388dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:text="alpha #FFFFFF"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textColorHint="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <View
+        android:id="@+id/cuadrito"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <SeekBar
+        android:id="@+id/seekbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <LinearLayout
+        android:id="@+id/ListDataHelper"
+        android:layout_width="384dp"
+        android:layout_height="376dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
